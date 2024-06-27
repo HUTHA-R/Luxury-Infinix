@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('checkoutBtn').addEventListener('click', function () {
         // Redirect to checkout page
-        window.location.href = 'checkout.html';
+        window.location.href = 'index(98).html';
     });
 
 });
