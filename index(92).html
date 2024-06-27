@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="images/Infnix_logo.png">
+      <title>Sports</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="script(1).js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <style>
+         @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kenia&family=Source+Code+Pro:ital,wght@1,300&display=swap");
+      </style> 
+      <script src="https://kit.fontawesome.com/1dbc5128ba.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+             <div id="logo">
+               <img src="logo-green.png">
+             </div>
+             <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="index.html#categories ">Products</a></li>
+                 <li><a href="index.html#our-story">About</a></li>
+                 <li><button class="open-sidebar-btn"><i class="fa-solid fa-cart-shopping"></i></button></li>
+                <a href="index.html#categories"><button class="shop">shop now!</button></a> 
+             </ul>
+         </nav>
+     </header>
+  <!-- Side Menu Toggle Button -->
+   <div class="nav-flex">
+  <button class="menu-toggle" onclick="toggleSideMenu()">
+   <i class="fa-solid fa-bars"></i>
+  </button>
+  <div id="logo">
+   <img src="logo-green.png">
+ </div>
+</div>
+
+  <!-- Side Menu -->
+  <nav class="side-menu">
+    <ul class="nav-links">
+      <!-- Links moved to side menu -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#categories">Products</a></li>
+      <li><a href="index.html#our-story">About</a></li>
+      <li><button class="open-sidebar-btn cart-toggle"><i class="fa-solid fa-cart-shopping"></i></button></li>
+      <a href="#categories"> <button class="shop">shop now!</button></a>
+    </ul>
+  </nav>
+<!-- cart sidebar -->
+<div class="cart-sidebar">
+   <h2>Shopping Cart</h2>
+   <ul class="cart-items"></ul>
+   <p class="total">Total: £0.00</p>
+   <button id="checkoutBtn">Checkout</button>
+ </div> 
+ <div class="overlay"></div>
+ 
+ <section id="products-page">
+    <div class="cards-row">
+        <div class="card">
+           <div class="card-img">
+              <img src="images/gym jug/jug.png"  onclick="window.location.href='index(32).html';">
+           </div>
+           <div class="card-des">
+              <h3>Gym Jug Water Bottle</h3>
+              <p>kayman</p>
+              <h2>£ 13.25</h2>
+           </div>
+           <div class="card-rec"></div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+               <img src="images/Baller band/baller band.png"  onclick="window.location.href='index(33).html';">
+            </div>
+            <div class="card-des">
+               <h3>Exercise Band Bundle</h3>
+               <p>Baller Band </p>
+               <h2>£ 24</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+         <div class="card">
+            <div class="card-img">
+               <img src="images/door fram pull/frame.png"  onclick="window.location.href='index(34).html';">
+            </div>
+            <div class="card-des">
+               <h3>Door Frame Pull up Bar</h3>
+               <p>JXFITNESS</p>
+               <h2>£ 40.99</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+           <div class="card-img">
+              <img src="images/belt/belt.png"  onclick="window.location.href='index(35).html';">
+           </div>
+           <div class="card-des">
+              <h3>Weight Lifting Belt Gym Fitness</h3>
+              <p>RDX</p>
+              <h2>£ 11.25</h2>
+           </div>
+           <div class="card-rec"></div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+               <img src="images/logbook/book.png"  onclick="window.location.href='index(36).html';">
+            </div>
+            <div class="card-des">
+               <h3>Ultimate Gym Workout Log Book</h3>
+               <p>Uni Brands</p>
+               <h2>£ 7.99</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+         
+         <div class="card">
+            <div class="card-img">
+               <img src="images/Roller wheel/roller wheel.png"  onclick="window.location.href='index(37).html';">
+            </div>
+            <div class="card-des">
+               <h3>Abs Roller Wheel Exercise Roller</h3>
+               <p>Enter Sports</p>
+               <h2>£ 29.29</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+           <div class="card-img">
+              <img src="images/wrist wraps/wrist wrap.png"  onclick="window.location.href='index(38).html';" >
+           </div>
+           <div class="card-des">
+              <h3>  Wrist Wraps</h3>
+              <p>AQF</p>
+              <h2>£ 10.99</h2>
+           </div>
+           <div class="card-rec"></div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+               <img src="images/Yoga mat/mat.png"  onclick="window.location.href='index(39).html';">
+            </div>
+            <div class="card-des">
+               <h3>Maximo Yoga Mat</h3>
+               <p>Maximo Fitness</p>
+               <h2>£ 12.00</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+         
+         <div class="card">
+            <div class="card-img">
+               <img src="images/Yogi yoga mat/mat.png"  onclick="window.location.href='index(40).html';">
+            </div>
+            <div class="card-des">
+               <h3>Yogi Yoga Mat</h3>
+               <p>yogu</p>
+               <h2>£ 12.00</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+            <div class="card-img">
+               <img src="images/gloves/gloves1.jpg"  onclick="window.location.href='index(41).html';">
+            </div>
+            <div class="card-des">
+               <h3>RDX Boxing Gloves</h3>
+               <p>RDX</p>
+               <h2>£ 29.99</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+</section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+              <img src="images/logo.png" onclick="window.location.href='#main';" alt="Logo" />
+          </div>
+          <div class="footer-links">
+              <div class="footer-column">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="index.html#main">Home</a></li>
+                      <li><a href="index.html#categories">Shop</a></li>
+                      <li><a href="index.html#our-story">About</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Categories</h3>
+                  <ul>
+                      <li><a href="index(90).html">Beauty</a></li>
+                      <li><a href="index(91).html">Electronics</a></li>
+                      <li><a href="index(92).html">Gym Equipments</a></li>
+                      <li><a href="index(93).html">Home & Garden</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Contact Us</h3>
+                  <p>Email: Info@teamapp.com</p>
+                  <p>Phone: 1-800-200-300</p>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;  Luxury Infinix. All rights reserved.</p>
+    </div> 
+  </section>
+   </body>

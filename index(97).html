@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="images/Infnix_logo.png">
+      <title>Health&Selfcare</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="script(1).js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <style>
+         @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kenia&family=Source+Code+Pro:ital,wght@1,300&display=swap");
+      </style> 
+      <script src="https://kit.fontawesome.com/1dbc5128ba.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+             <div id="logo">
+               <img src="logo-green.png">
+             </div>
+             <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="index.html#categories ">Products</a></li>
+                 <li><a href="index.html#our-story">About</a></li>
+                 <li><button class="open-sidebar-btn"><i class="fa-solid fa-cart-shopping"></i></button></li>
+                <a href="index.html#categories"><button class="shop">shop now!</button></a> 
+             </ul>
+         </nav>
+     </header>
+  <!-- Side Menu Toggle Button -->
+   <div class="nav-flex">
+  <button class="menu-toggle" onclick="toggleSideMenu()">
+   <i class="fa-solid fa-bars"></i>
+  </button>
+  <div id="logo">
+   <img src="logo-green.png">
+ </div>
+</div>
+
+  <!-- Side Menu -->
+  <nav class="side-menu">
+    <ul class="nav-links">
+      <!-- Links moved to side menu -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#categories">Products</a></li>
+      <li><a href="index.html#our-story">About</a></li>
+      <li><button class="open-sidebar-btn cart-toggle"><i class="fa-solid fa-cart-shopping"></i></button></li>
+      <a href="#categories"> <button class="shop">shop now!</button></a>
+    </ul>
+  </nav>
+<!-- cart sidebar -->
+<div class="cart-sidebar">
+   <h2>Shopping Cart</h2>
+   <ul class="cart-items"></ul>
+   <p class="total">Total: £0.00</p>
+   <button id="checkoutBtn">Checkout</button>
+ </div> 
+ <div class="overlay"></div>
+ 
+ <section id="products-page">
+    <div class="cards-row">
+        <div class="card">
+           <div class="card-img">
+              <img src="images/health1/h.png"  onclick="window.location.href='index(65).html';">
+           </div>
+           <div class="card-des">
+              <h3>ADULT MULTI GUMMIES</h3>
+              <p>haliborange</p>
+              <h2>£ 11</h2>
+           </div>
+           <div class="card-rec"></div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+               <img src="images/health2/h.png"  onclick="window.location.href='index(66).html';">
+            </div>
+            <div class="card-des">
+               <h3>ADULT IMMUNE GUMMIES</h3>
+               <p>haliborange </p>
+               <h2>£ 8</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+         <div class="card">
+            <div class="card-img">
+               <img src="images/health3/h.png"  onclick="window.location.href='index(67).html';">
+            </div>
+            <div class="card-des">
+               <h3>Effervescent Sugar Free Vitamin C </h3>
+               <p>haliborange</p>
+               <h2>£ 4</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+           <div class="card-img">
+              <img src="images/health4/h.png"  onclick="window.location.href='index(68).html';">
+           </div>
+           <div class="card-des">
+              <h3> AVIDDA Knee Support Brace</h3>
+              <p>AVIDDA</p>
+              <h2>£ 15</h2>
+           </div>
+           <div class="card-rec"></div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+               <img src="images/health5/h.png"  onclick="window.location.href='index(69).html';">
+            </div>
+            <div class="card-des">
+               <h3>Elbow Support for Women</h3>
+               <p>AVIDDA</p>
+               <h2>£ 6</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+         
+         <div class="card">
+            <div class="card-img">
+               <img src="images/health6/h.png"  onclick="window.location.href='index(70).html';">
+            </div>
+            <div class="card-des">
+               <h3>Posture Corrector for Men Women</h3>
+               <p>AVIDDA</p>
+               <h2>£ 20</h2>
+            </div>
+            <div class="card-rec"></div>
+         </div>
+      </div>
+     
+      </div>
+</section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+              <img src="images/logo.png" onclick="window.location.href='#main';" alt="Logo" />
+          </div>
+          <div class="footer-links">
+              <div class="footer-column">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="index.html#main">Home</a></li>
+                      <li><a href="index.html#categories">Shop</a></li>
+                      <li><a href="index.html#our-story">About</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Categories</h3>
+                  <ul>
+                      <li><a href="index(90).html">Beauty</a></li>
+                      <li><a href="index(91).html">Electronics</a></li>
+                      <li><a href="index(92).html">Gym Equipments</a></li>
+                      <li><a href="index(93).html">Home & Garden</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3>Contact Us</h3>
+                  <p>Email: Info@teamapp.com</p>
+                  <p>Phone: 1-800-200-300</p>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;  Luxury Infinix. All rights reserved.</p>
+    </div> 
+  </section>
+   </body>
