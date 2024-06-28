@@ -1627,7 +1627,8 @@ header {
    .right-flex {
      width: 20%; /* Take full width */
      border-bottom-right-radius: 0; /* Remove border radius */
-     margin-top: 20px; /* Add some margin to separate from other sections */
+     margin-top: 20px; 
+     left: -100px;
    }
    .images img{
       width: 300px;
@@ -1689,7 +1690,8 @@ header {
    }
    /* Our Story section */
    #our-story{
-      height: 0px;
+      height: 120vh;
+      flex-direction: column;
       /* position: relative; */
    }
    .left-story, .right-story {
@@ -1698,11 +1700,13 @@ header {
    }
    .left-story{
       position: relative;
-      
    }
    .right-story{
       position: absolute;
       top: 110%;
+   }
+   .right-story img{
+      width: 100%;
    }
    .rectangle{
       display: none;
